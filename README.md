@@ -26,3 +26,29 @@ This repository provides Python codes for analyzing molecular dynamics (MD) simu
   - Publication-quality plots for all major analyses
   - 2D/3D free energy surfaces and density maps
 
+This repository will also provide the backbone structure for MD simulation on Gromacs and calculation of aforementioned properties
+molecular-dynamics-repo/
+│
+├── README.md                # Overview of your project
+├── setup/                   # Installation, input preparation
+│   ├── system_setup.md
+│   ├── topology_generation.md
+│   └── solvation_ions.md
+│
+├── simulation/              # Command lines for running MD
+│   ├── energy_minimization.md
+│   ├── nvt_equilibration.md
+│   ├── npt_equilibration.md
+│   └── production_run.md
+│
+├── analysis/                # Post-simulation calculations
+│   ├── rmsd.md
+│   ├── rmsf.md
+│   ├── gyration.md
+│   ├── hydrogen_bonds.md
+│   └── energy_profile.md
+│
+└── utilities/               # General commands / helper scripts
+    ├── file_conversion.md
+    ├── trajectory_processing.md
+    └── visualization.md
