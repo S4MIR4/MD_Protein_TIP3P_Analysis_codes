@@ -1,3 +1,5 @@
+```
+
 ;production.mdp
 title                   = OPLS Lysozyme NPT equilibration
 ; Run parameters
@@ -46,9 +48,10 @@ DispCorr                = EnerPres  ; account for cut-off vdW scheme
 ; Velocity generation
 gen_vel                 = no        ; Velocity generation is off
 
+```
 
 
-````bash
+```bash
 gmx grompp -f inputs/md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_10.tpr
 gmx mdrun -deffnm md_0_10
 
