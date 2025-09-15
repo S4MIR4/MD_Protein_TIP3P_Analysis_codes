@@ -1,3 +1,4 @@
+```
 em.mdp
 ; minim.mdp - used as input into grompp to generate em.tpr
 ; Parameters describing what to do, when to stop and what to save
@@ -14,7 +15,7 @@ coulombtype     = PME       ; Treatment of long range electrostatic interactions
 rcoulomb        = 1.0       ; Short-range electrostatic cut-off
 rvdw            = 1.0       ; Short-range Van der Waals cut-off
 pbc             = xyz       ; Periodic Boundary Conditions in all 3 dimensions
-
+```
 
 ```bash
 gmx grompp -f minim.mdp -c 1AKI_solv_ions.gro -p topol.top -o em.tpr
