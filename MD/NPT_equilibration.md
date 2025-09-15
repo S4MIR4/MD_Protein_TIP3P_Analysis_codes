@@ -1,3 +1,4 @@
+```
 ;NPT.mdp
 title                   = OPLS Lysozyme NPT equilibration
 define                  = -DPOSRES  ; position restrain the protein
@@ -44,8 +45,9 @@ pbc                     = xyz       ; 3-D PBC
 ; Velocity generation
 gen_vel                 = no        ; Velocity generation is off
 
+```
 
-````bash
+```bash
 
 The previous step, NVT equilibration, stabilized the temperature of the system. Prior to data collection, we must also stabilize the pressure (and thus also the density) of the system. Equilibration of pressure is conducted under an NPT ensemble, wherein the Number of particles, Pressure, and Temperature are all constant. The ensemble is also called the "isothermal-isobaric" ensemble, and most closely resembles experimental conditions.
 
@@ -66,3 +68,5 @@ gmx energy -f npt.edr -o pressure.xvg
 
 ;to get the density profile:
 gmx energy -f npt.edr -o density.xvg
+
+```
