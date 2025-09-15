@@ -1,3 +1,4 @@
+```
 ;ions.mdp
 ; ions.mdp - used as input into grompp to generate ions.tpr
 ; Parameters describing what to do, when to stop and what to save
@@ -14,6 +15,8 @@ coulombtype     = cutoff    ; Treatment of long range electrostatic interactions
 rcoulomb        = 1.0       ; Short-range electrostatic cut-off
 rvdw            = 1.0       ; Short-range Van der Waals cut-off
 pbc             = xyz       ; Periodic Boundary Conditions in all 3 dimensions
+
+```
 
 
 ;assemble your .tpr  (binary file includes the atomic_level description of our system)
