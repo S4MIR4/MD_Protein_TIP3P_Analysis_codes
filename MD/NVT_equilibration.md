@@ -1,3 +1,4 @@
+```
 NVT.mdp
 
 title                   = OPLS Lysozyme NVT equilibration
@@ -42,8 +43,9 @@ gen_vel                 = yes       ; assign velocities from Maxwell distributio
 gen_temp                = 300       ; temperature for Maxwell distribution
 gen_seed                = -1        ; generate a random seed
 
+```
 
-````bash
+```bash
 
 gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
 
