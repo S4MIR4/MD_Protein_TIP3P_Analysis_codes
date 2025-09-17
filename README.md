@@ -29,13 +29,13 @@ This repository provides Python codes for analyzing molecular dynamics (MD) simu
 This repository will also provide the backbone structure for MD simulation on Gromacs and calculation of aforementioned properties
 molecular-dynamics-repo/
 │
-├── README.md                # Overview of your project
+├── README.md                
 ├── setup/                   # Installation, input preparation
 │   ├── system_setup.md
 │   ├── topology_generation.md
 │   └── solvation_ions.md
 │
-├── simulation/              # Command lines for running MD
+├── simulation/              # Command lines for  running MD
 │   ├── energy_minimization.md
 │   ├── nvt_equilibration.md
 │   ├── npt_equilibration.md
